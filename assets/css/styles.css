@@ -1,0 +1,19 @@
+:root {
+    --background-color-body: #F5F5F5;
+    --color-links: #000;
+    --color-gray: #464646;
+    --color-alice-blue: #EAF2FD;
+    --color-royal-blue: #2A7AE4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--background-color-body);
+}
