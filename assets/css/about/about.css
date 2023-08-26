@@ -1,0 +1,13 @@
+.about__container {
+    background: #eaf2fd;
+}
+.titles__h2 {
+    font-size: 2.2rem;
+    color: var(--color-gray);
+}
+.about__description {
+    font-size: 2rem;
+    color: var(--color-gray);
+    margin-top: 30px;
+    line-height: 2.8rem;
+}
