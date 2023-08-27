@@ -36,3 +36,15 @@
         width: 30%;
     }
 }
+
+@media screen and (min-width: 900px) {
+    .skill__box {
+        width: 260px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .skill__box {
+        width: 140px;
+    }
+}
