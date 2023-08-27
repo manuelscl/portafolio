@@ -45,3 +45,15 @@
 .home__img img {
     width: 300px;
 }
+
+@media screen and (max-width: 900px) {
+    .home {
+        flex-direction: column;
+    }
+    .home__info {
+        width: 100%;
+    }
+    .home__img {
+        display: none;
+    }
+}
