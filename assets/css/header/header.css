@@ -21,6 +21,7 @@
     cursor: pointer;
 }
 .menu__mobile {
+    display: none;
     position: fixed;
     left: 0;
     top: 0;
@@ -83,6 +84,7 @@
         display: none;
     }
     .menu__mobile {
+        display: block;
         height: auto;
         position: initial;
         background: none;
