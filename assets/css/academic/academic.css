@@ -39,3 +39,13 @@
     font-size: 1.6rem;
     color: var(--color-gray);
 }
+
+@media screen and (min-width: 768px) {
+    .academic__courses {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .academic__course {
+        width: 30%;
+    }
+}
