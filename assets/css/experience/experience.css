@@ -1,33 +1,33 @@
-.projects__title {
+.experiences__title {
     font-size: 2rem;
     margin-bottom: 30px;
     color: var(--color-gray);
     text-align: center;
 }
-.project__box {
+.experience__box {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.project__box img {
+.experience__box img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 20px 0px #dcdcdc52;
 }
-.project__info {
+.experience__info {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.project__name {
+.experience__name {
     font-size: 1.8rem;
     color: var(--color-gray);
 }
-.project__description {
+.experience__description {
     font-size: 1.6rem;
     color: var(--color-gray);
 }
-.project__links a {
+.experience__links a {
     display: inline-block;
     font-size: 1.5rem;
     padding: 12px 20px;
@@ -37,10 +37,10 @@
     border-radius: 4px;
     text-decoration: none;
 }
-#project__repo {
+#experience__repo {
     margin-right: 10px;
 }
-#project__live {
+#experience__live {
     background: var(--color-royal-blue);
     color: white;
 }
