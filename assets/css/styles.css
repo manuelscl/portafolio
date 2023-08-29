@@ -4,6 +4,12 @@
     --color-gray: #464646;
     --color-alice-blue: #EAF2FD;
     --color-royal-blue: #2A7AE4;
+
+    --font-size-small: 1.6rem;
+    --font-size-medium: 1.8rem;
+    --font-size-large: 2rem;
+    --font-size-xl: 2.2rem;
+    --font-size-xxl: 3.2rem;
 }
 
 * {
