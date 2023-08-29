@@ -2,7 +2,7 @@
     background: var(--color-alice-blue);
 }
 .academic__title {
-    font-size: 2rem;
+    font-size: var(--font-size-large);
     color: var(--color-gray);
     text-align: center;
 }
@@ -31,13 +31,19 @@
     padding: 38px;
 }
 .course__title {
-    font-size: 1.6rem;
+    font-size: var(--font-size-small);
     font-weight: 700;
     color: var(--color-gray);
 }
 .course__date {
     font-size: 1.6rem;
     color: var(--color-gray);
+}
+
+@media screen and (min-width: 600px) {
+    .academic__title {
+        font-size: var(--font-size-xl);
+    }
 }
 
 @media screen and (min-width: 768px) {
