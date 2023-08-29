@@ -20,27 +20,29 @@
     color: var(--color-gray);
     letter-spacing: 0.5px;
 }
-.home__links {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 20px;
-}
 .btn__cv {
     background: var(--color-royal-blue);
     border-radius: 4px;
 }
-.btn__cv a {
+.btn__cv {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 1.8rem;
     color: white;
     padding: 12px 20px;
     text-decoration: none;
     gap: 5px;
 }
-.btn__cv a i {
+.btn__cv i {
     font-size: 2.2rem;
+}
+.home__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
 }
 .home__img img {
     width: 300px;
