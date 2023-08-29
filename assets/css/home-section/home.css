@@ -20,6 +20,11 @@
     color: var(--color-gray);
     letter-spacing: 0.5px;
 }
+.links__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .btn__cv {
     background: var(--color-royal-blue);
     border-radius: 4px;
@@ -46,6 +51,12 @@
 }
 .home__img img {
     width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    .links__container {
+        flex-direction: row;
+    }
 }
 
 @media screen and (max-width: 900px) {
