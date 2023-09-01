@@ -60,11 +60,12 @@ fieldset {
     width: 100%;
     font-size: 1.8rem;
     color: var(--color-gray);
-    padding: 15px;
-    resize: none;
     border: none;
+    border-radius: 4px;
     border-bottom: 2px solid #e8e8e8;
+    padding: 15px;
     outline: none;
+    resize: none;
     transition: 0.3s ease;
 }
 .message__textarea:focus {
@@ -74,10 +75,23 @@ fieldset {
     font-size: 1.5rem;
     color: rgb(117, 117, 117);
 }
+.btn__submit {
+    width: 100%;
+    font-size: 1.6rem;
+    color: white;
+    background: var(--color-royal-blue);
+    padding: 16px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 @media screen and (min-width: 600px) {
     .form {
         grid-template-columns: 1fr 1fr;
+    }
+    .form__title {
+        font-size: 2.2rem;
     }
     .input--g3,
     .input--g4 {
@@ -110,5 +124,8 @@ fieldset {
     .input--g3,
     .input--g4 {
         grid-column: span 1;
+    }
+    .btn__submit {
+        width: 45%;
     }
 }
