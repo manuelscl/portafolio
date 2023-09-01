@@ -1,3 +1,6 @@
+.contact__container {
+    background: var(--color-alice-blue);
+}
 .contact {
     display: flex;
     flex-direction: column;
