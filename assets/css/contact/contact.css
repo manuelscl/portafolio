@@ -5,8 +5,16 @@
     display: flex;
     flex-direction: column;
 }
+.contact__img {
+    display: none;
+}
 .contact__form {
     width: 100%;
+}
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0 20px;
 }
 .form__title {
     font-size: 2rem;
@@ -65,4 +73,42 @@ fieldset {
 .message__textarea::placeholder {
     font-size: 1.5rem;
     color: rgb(117, 117, 117);
+}
+
+@media screen and (min-width: 600px) {
+    .form {
+        grid-template-columns: 1fr 1fr;
+    }
+    .input--g3,
+    .input--g4 {
+        grid-column: span 2;
+    }
+}
+@media screen and (min-width: 900px) {
+    .contact {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact__img {
+        width: 50%;
+        display: block
+    }
+    .contact__img img {
+        height: 100%;
+        width: 100%;
+    }
+    .contact__form {
+        width: 45%;
+    }
+    .form {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .input__group {
+        margin: 0;
+    }
+    .input--g3,
+    .input--g4 {
+        grid-column: span 1;
+    }
 }
