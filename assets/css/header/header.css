@@ -94,6 +94,7 @@
         position: initial;
         background: none;
         padding: 0;
+        opacity: 100%;
     }
     .menu__list {
         display: flex;
